@@ -60,4 +60,5 @@ data = {'odp':odp, 'tOdp':odp1[0], 'sOdp':odp2[0], 'pdp':pdp, 'tPdp':angkaSmalll
 @app.route('/', methods=['GET'])
 def home():
     return jsonify(data)
-app.run()
+if __name__ == '__main__':
+    app.run()
