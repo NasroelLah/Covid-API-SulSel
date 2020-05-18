@@ -55,7 +55,7 @@ pos1 = angkaSmall[6]
 pos2 = angkaSmall[7].split(" ")
 pos3 = angkaSmall[8].split(" ")
 
-data = {'odp':odp, 'tOdp':odp1[0], 'sOdp':odp2[0], 'pdp':pdp, 'tPdp':angkaSmalll[0], 'nPdp':pdp2[0], 'mPdp':pdp3[0], 'positif':positif, 'tPos':pos1, 'mIso':isolasi1, 'rIso':isolasi2, 'sembuh':pos2[0], 'die':pos3[0]}
+data = [{'odp':odp, 'tOdp':odp1[0], 'sOdp':odp2[0], 'pdp':pdp, 'tPdp':angkaSmalll[0], 'nPdp':pdp2[0], 'mPdp':pdp3[0], 'positif':positif, 'tPos':pos1, 'mIso':isolasi1, 'rIso':isolasi2, 'sembuh':pos2[0], 'die':pos3[0]}]
 
 @app.route('/', methods=['GET'])
 def home():
